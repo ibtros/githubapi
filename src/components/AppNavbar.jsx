@@ -8,11 +8,11 @@ export const AppNavbar = () => {
   return (
     <Navbar bg="light" variant="light">
         <Container>
-          <Navbar.Brand href="home">GitHub API</Navbar.Brand>
+          <Navbar.Brand href="/home">GitHub API</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="home">Home</Nav.Link>
-            <Nav.Link href="users">Users</Nav.Link>
-            <Nav.Link href="repositories">Repositories</Nav.Link>
+            <Nav.Link href="/home">Home</Nav.Link>
+            <Nav.Link href="/users">Users</Nav.Link>
+            <Nav.Link href="/repositories">Repositories</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
